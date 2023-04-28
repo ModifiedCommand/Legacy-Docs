@@ -1,0 +1,35 @@
+:root {
+    // brand colors
+    --c-brand: #27ae60;
+    --c-brand-light: #2ecc71;
+}
+
+html.dark {
+    // brand colors
+    --c-brand: #27ae60;
+    --c-brand-light: #2ecc71;
+
+    // background colors
+    --c-bg: #121212;
+    --c-bg-light: #2b2b2b;
+    --c-bg-lighter: #6c757d;
+    --c-bg-dark: #2b2b2b;
+    --c-bg-darker: #121212;
+
+    // text colors
+    --c-text: #fff;
+    --c-text-light: #fff;
+    --c-text-lighter: #fff;
+    --c-text-lightest: #fff;
+
+    // border colors
+    --c-border: #2b2b2b;
+    --c-border-dark: black;
+}
+
+// Search Bar
+.dark .search-box input {
+    background-color: #2b2b2b !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
