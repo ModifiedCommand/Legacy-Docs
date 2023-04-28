@@ -2,10 +2,13 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { searchPlugin } from '@vuepress/plugin-search'
 import sidebar from './sidebar';
 
+let title = 'Minecraft Legacy Docs';
+let description = 'Just playing around';
+
 export default {
     lang: 'en-US',
-    title: 'Minecraft Legacy Docs',
-    description: 'Just playing around',
+    title: title,
+    description: description,
     head: [
         ['meta', { charset: 'utf-8' }],
         ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
