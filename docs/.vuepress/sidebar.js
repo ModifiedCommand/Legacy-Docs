@@ -10,7 +10,7 @@ export default {
         },
         {
             text: 'Legacy Filetypes',
-            children: ['/Formats/README.md', '/Formats/ARC/README.md', '/Formats/COL/README.md'],
+            children: ['/Formats/README.md', '/Formats/ARC/README.md', '/Formats/COL/README.md', '/Formats/LOC/README.md', '/Formats/Material/README.md', '/Formats/Models/README.md', '/Formats/PCK/README.md'],
         },
     ]
 };
