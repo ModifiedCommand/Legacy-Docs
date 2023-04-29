@@ -6,6 +6,7 @@ let title = 'Minecraft Legacy Docs';
 let description = 'Just playing around';
 
 export default {
+    base: '/Legacy-Docs/',
     lang: 'en-US',
     title: title,
     description: description,
