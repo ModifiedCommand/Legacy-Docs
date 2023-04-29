@@ -1,3 +1,3 @@
 # Legacy-Docs
 
-Vue Press Project
+Documentation about Minecraft: Legacy Console Edition with Vue Press
