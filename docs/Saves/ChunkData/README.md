@@ -1,6 +1,6 @@
 # Chunk Data
 
-# 1. Header `[..0x19]`
+## 1. Header `[..0x19]`
 
 * The first two bytes represent a short containing the chunk's version in hex. So far only `12 = Aquatic` is known.
 * The next 8 bytes represent two integers with the chunk's X and Z position respectively.  
@@ -17,7 +17,7 @@
    |...   InhabitedTime
 ```  
 
-# 2. Section Header `[0x1A..0x4B]`  
+## 2. Section Header `[0x1A..0x4B]`  
 
 > **\*** "Sections" are vertically-aligned cubes of 16×16×16 blocks (4096), and there are 16 of them in each chunk. Starting from 0 (y0) up to 15 (y255)  
   
@@ -25,7 +25,7 @@
 * The next 0x20 bytes `[0x1C..0x3B]` contain 16 shorts defining offsets of where sections start called the `jump table`. If an offset matches the block data length (shown above), then there should be no more sections to parse.  
 * The next 0x10 bytes `[0x3C..0x4B]` are the sizes of sections. Multiply by `0x100` to get the actual size. If a size is `0`, then there's probably no more sections to parse. (It is recommended to use the `jump table` if the whole chunk is loaded into memory for each section and not bother with sections sizes and reading into smaller chunks)
 
-# 3. Section Data `[0x4C..(*X+0x4C)]`
+## 3. Section Data `[0x4C..(*X+0x4C)]`
 
 > **\*** X is defined in the Section Header as the "block data size" (The total length of the all the block data sections) `[0x1A..0x1B]`
 > **†** Y is defined in the Section Header as the "section offset". Add `0x4C` to get the actual address in the chunk data. `[0x1C..0x3B`  
