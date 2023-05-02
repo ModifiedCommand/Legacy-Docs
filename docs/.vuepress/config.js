@@ -13,8 +13,8 @@ export default {
     head: [
         ['meta', { charset: 'utf-8' }],
         ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-        ['link', { rel: 'icon', href: '/favicon.png' }],
-        ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#2ecc71' }],
+        ['link', { rel: 'icon', href: 'https://modifiedcommand.github.io/Legacy-Docs//favicon.png' }],
+        ['link', { rel: 'mask-icon', href: 'https://modifiedcommand.github.io/Legacy-Docs//safari-pinned-tab.svg', color: '#2ecc71' }],
         ['meta', { name: 'theme-color', content: '#27ae60' }],
         ['meta', { name: 'twitter:card', content: 'summary' }],
         ['meta', { property: 'og:title', content: title }],
