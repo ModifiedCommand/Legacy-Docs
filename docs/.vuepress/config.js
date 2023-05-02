@@ -3,7 +3,7 @@ import { searchPlugin } from '@vuepress/plugin-search'
 import sidebar from './sidebar';
 
 let title = 'Minecraft Legacy Docs';
-let description = 'Just playing around';
+let description = 'Documentation about Minecraft: Legacy Console Edition';
 
 export default {
     base: '/Legacy-Docs/',
@@ -13,26 +13,37 @@ export default {
     head: [
         ['meta', { charset: 'utf-8' }],
         ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-        // ['link', { rel: 'icon', href: '/favicon.png' }],
+        ['link', { rel: 'icon', href: '/favicon.png' }],
+        ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#2ecc71' }],
         ['meta', { name: 'theme-color', content: '#27ae60' }],
         ['meta', { name: 'twitter:card', content: 'summary' }],
         ['meta', { property: 'og:title', content: title }],
         ['meta', { property: 'og:description', content: description }],
         ['meta', { property: 'og:type', content: 'website' }],
-        // ['meta', { property: 'og:url', content: 'https://example.com/' }],
+        ['meta', { property: 'og:url', content: 'https://modifiedcommand.github.io/Legacy-Docs/' }],
         ['meta', { property: 'og:locale', content: 'en_US' }],
-        // ['meta', { property: 'og:image', content: 'https://example.com/' }],
+        ['meta', { property: 'og:image', content: 'https://modifiedcommand.github.io/Legacy-Docs/' }],
     ],
     theme: defaultTheme({
+        navbar: [
+			{
+				text: 'Save Files',
+				link: '/Saves/',
+			},
+            {
+				text: 'Filetypes',
+				link: '/Formats/',
+			},
+        ],
         sidebar,
         contributors: true,
         repo: 'ModifiedCommand/Legacy-Docs',
-        //logo: '/favicon.png',
+        logo: '/favicon.png',
         sidebarDepth: 2,
         docsDir: 'docs',
         editLink: true,
         lastUpdated: true,
-        colorMode: 'dark'
+        colorMode: 'auto'
     }),
     plugins: [
         searchPlugin({
