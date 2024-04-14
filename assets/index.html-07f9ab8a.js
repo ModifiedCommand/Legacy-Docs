@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-440bb248","path":"/Formats/Material/","title":"Material","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Materials","slug":"materials","link":"#materials","children":[]}],"git":{"updatedTime":1713120960000},"filePathRelative":"Formats/Material/README.md"}');export{a as data};

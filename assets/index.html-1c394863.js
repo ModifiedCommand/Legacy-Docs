@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5a2636ae","path":"/Formats/ARC/","title":"ARC","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Entries","slug":"entries","link":"#entries","children":[]}],"git":{"updatedTime":1713120960000},"filePathRelative":"Formats/ARC/README.md"}');export{e as data};
