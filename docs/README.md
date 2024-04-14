@@ -2,6 +2,11 @@
 
 Documentation about Minecraft: Legacy Console Edition related stuff.
 
+## Original Repositories
+
+* [UtterEvergreen1/Minecraft-LCE-Docs](https://github.com/UtterEvergreen1/Minecraft-LCE-Docs)
+* [PhoenixARC/LCE_Format_Documentation](https://github.com/PhoenixARC/LCE_Format_Documentation)
+
 ## Original Contributors
 
 * [UtterEvergreen1](https://github.com/UtterEvergreen1/)
@@ -11,13 +16,8 @@ Documentation about Minecraft: Legacy Console Edition related stuff.
 * [miku-666](https://github.com/miku-666/)
 * [MattN-L](https://github.com/MattN-L)
 
-## Original Repositories
-
-* [UtterEvergreen1/Minecraft-LCE-Docs](https://github.com/UtterEvergreen1/Minecraft-LCE-Docs)
-* [PhoenixARC/LCE_Format_Documentation](https://github.com/PhoenixARC/LCE_Format_Documentation)
-
 ## Official Forks (archived)
 
 * [Team-Lodestone/Legacy-Docs](https://github.com/Team-Lodestone/Legacy-Docs)
 
-Checked Date: 2023-04-28
+Checked Date: 2024-04-14
